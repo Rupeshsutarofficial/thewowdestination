@@ -2134,6 +2134,7 @@ header {
   padding: 15px 0;
   z-index: 99999;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
+  background-color: #ffffff;
 }
 @media (max-width: 767px) {
   header.header {
@@ -2150,7 +2151,7 @@ header.header.sticky {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-bottom: 1px solid #ededed;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 @media (max-width: 991px) {
   header.header.sticky {
@@ -2176,7 +2177,8 @@ header.header_in.is_sticky {
   width: 100%;
 }
 header.header_in ul#top_menu li a {
-  color: #444;
+  color: #0f0f0f;
+  font-size: 15px;
 }
 @media (max-width: 991px) {
   header.header_in {
@@ -2228,7 +2230,7 @@ header.sticky a.open_close,
   }
   #logo img {
     width: auto;
-    height: 28px;
+    height: 20px;
   }
 }
 
@@ -2262,7 +2264,7 @@ header.sticky a.open_close,
 
 /*First level styles */
 .main-menu > ul > li > a {
-  color: #fff;
+  color: #000000;
   padding: 0 8px 10px 8px;
   font-size: 14px;
   font-size: 0.875rem;
@@ -2273,7 +2275,8 @@ header.sticky a.open_close,
 }
 
 header.sticky .main-menu > ul > li > a,
-header.header_in .main-menu > ul > li > a {
+header.header_in .main-menu > ul > li > a,
+.logo-png {
   color: #444;
 }
 header.sticky .main-menu > ul > li:hover > a,
@@ -2504,7 +2507,7 @@ header.header_in .main-menu > ul > li:hover > a {
     float: right;
   }
 
-  .main-menu > ul > li.submenu:hover > a:after {
+  /* .main-menu > ul > li.submenu:hover > a:after {
     transform: rotate(180deg);
     color: #589442;
   }
@@ -2523,7 +2526,7 @@ header.header_in .main-menu > ul > li:hover > a {
     -webkit-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
+  } */
 
   /* Menu mobile second level */
   .main-menu ul li.submenu ul {
@@ -6043,14 +6046,4 @@ a.box_topic {
 
 .add_to_cart:hover {
   background-color: #218838; /* Darker green on hover */
-}
-
-/* Initial logo color (original color) */
-#logo img {
-    transition: filter 0.3s ease-in-out;
-}
-
-/* White logo when scrolled */
-#logo.scrolled img {
-    filter: brightness(0) invert(1);
 }

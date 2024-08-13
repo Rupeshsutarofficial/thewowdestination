@@ -49,19 +49,24 @@
 		<div class="container">
 			<div id="logo">
 				<a href="index.html">
-					<img src="img/logo/logo.png" alt="">
+					<img class="logo-png" src="img/logo/logo.png" alt="" style="
+	height: 22px;
+	margin-top: 7px;
+">
 				</a>
 			</div>
 			<!-- /top_menu -->
 			<a href="#0" class="open_close">
-				<i class="icon_menu"></i><span>Menu</span>
+				<i class="icon_menu" style="
+	color: black;
+"></i><span>Menu</span>
 			</a>
 			<nav class="main-menu">
 				<div id="header_menu">
 					<a href="#0" class="open_close">
 						<i class="icon_close"></i><span>Menu</span>
 					</a>
-					<a href="index.html"><img src="img/logo.svg" width="140" height="35" alt=""></a>
+					<a href="index.html"><img src="img/logo/White the wow.png" height="25" alt=""></a>
 				</div>
 				<ul>
 					<li class="submenu">
@@ -136,8 +141,9 @@
 					<div class="item">
 						<a href="birthday.php">
 							<!-- <span>98</span> -->
-							<img style="height: 90px;width: 90px;margin-left: 50px;margin-bottom: 14px;"
-								src="img/icon/cake.webp" alt="">
+							<i class="fa-solid fa-cake-candles" style="
+	margin-bottom: 35px;
+"></i>
 							<h3>Birthday</h3>
 							<!-- <small>Avg price $40</small> -->
 						</a>
@@ -145,8 +151,9 @@
 					<div class="item">
 						<a href="#0">
 							<!-- <span>87</span> -->
-							<img style="height: 90px;width: 90px;margin-left: 50px;margin-bottom: 14px;"
-								src="img/icon/pool.webp" alt="">
+							<i class='bx bxs-party' style="
+	margin-bottom: 35px;
+"></i>
 							<h3>Anniversary</h3>
 							<!-- <small>Avg price $50</small> -->
 						</a>
@@ -154,8 +161,9 @@
 					<div class="item">
 						<a href="#0">
 							<!-- <span>96</span> -->
-							<img style="height: 90px;width: 90px;margin-left: 50px;margin-bottom: 14px;"
-								src="img/icon/wedding.png" alt="">
+							<i class='bx bx-male-female' style="
+	margin-bottom: 35px;
+"></i>
 							<h3>Wedding</h3>
 							<!-- <small>Avg price $55</small> -->
 						</a>
@@ -163,8 +171,9 @@
 					<div class="item">
 						<a href="#0">
 							<!-- <span>78</span> -->
-							<img style="height: 90px;width: 90px;margin-left: 50px;margin-bottom: 14px;"
-								src="img/icon/ring.png" alt="">
+							<i class="fa-solid fa-ring" style="
+	margin-bottom: 35px;
+"></i>
 							<h3>Engagement</h3>
 							<!-- <small>Avg price $40</small> -->
 						</a>
@@ -172,8 +181,9 @@
 					<div class="item">
 						<a href="#0">
 							<!-- <span>65</span> -->
-							<img style="height: 90px;width: 90px;margin-left: 50px;margin-bottom: 14px;"
-								src="img/icon/cocktail.webp" alt="">
+							<i class="fa-solid fa-martini-glass-citrus" style="
+	margin-bottom: 35px;
+"></i>
 							<h3>Date Night</h3>
 							<!-- <small>Avg price $60</small> -->
 						</a>
@@ -181,8 +191,9 @@
 					<div class="item">
 						<a href="#0">
 							<!-- <span>65</span> -->
-							<img style="height: 90px;width: 90px;margin-left: 50px;margin-bottom: 14px;"
-								src="img/icon/baby.png" alt="">
+							<i class="fa-solid fa-baby" style="
+	margin-bottom: 35px;
+"></i>
 							<h3>Baby Shower</h3>
 							<!-- <small>Avg price $40</small> -->
 						</a>
@@ -541,6 +552,8 @@
 
 </body>
 <script>
+
+
 	document.addEventListener('DOMContentLoaded', function () {
 		flatpickr('#date-input', {
 			enableTime: false,
