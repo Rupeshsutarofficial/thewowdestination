@@ -49,17 +49,17 @@
 		<div class="container">
 			<div id="logo">
 				<a href="index.html">
-					<img class="logo-png" src="img/logo/logo.png" alt="" style="
-	height: 22px;
-	margin-top: 7px;
-">
+					<img class="logo-png" src="img/logo/Black the wow.png" alt="" style="
+		height: 22px;
+		margin-top: 7px;
+	">
 				</a>
 			</div>
 			<!-- /top_menu -->
 			<a href="#0" class="open_close">
 				<i class="icon_menu" style="
-	color: black;
-"></i><span>Menu</span>
+		color: black;
+	"></i><span>Menu</span>
 			</a>
 			<nav class="main-menu">
 				<div id="header_menu">
@@ -141,9 +141,7 @@
 					<div class="item">
 						<a href="birthday.php">
 							<!-- <span>98</span> -->
-							<i class="fa-solid fa-cake-candles" style="
-	margin-bottom: 35px;
-"></i>
+							<i class="fa-solid fa-cake-candles" style="margin-bottom: 35px;"></i>
 							<h3>Birthday</h3>
 							<!-- <small>Avg price $40</small> -->
 						</a>
@@ -151,9 +149,7 @@
 					<div class="item">
 						<a href="#0">
 							<!-- <span>87</span> -->
-							<i class='bx bxs-party' style="
-	margin-bottom: 35px;
-"></i>
+							<i class='bx bxs-party' style="margin-bottom: 35px;"></i>
 							<h3>Anniversary</h3>
 							<!-- <small>Avg price $50</small> -->
 						</a>
@@ -162,8 +158,8 @@
 						<a href="#0">
 							<!-- <span>96</span> -->
 							<i class='bx bx-male-female' style="
-	margin-bottom: 35px;
-"></i>
+		margin-bottom: 35px;
+	"></i>
 							<h3>Wedding</h3>
 							<!-- <small>Avg price $55</small> -->
 						</a>
@@ -172,8 +168,8 @@
 						<a href="#0">
 							<!-- <span>78</span> -->
 							<i class="fa-solid fa-ring" style="
-	margin-bottom: 35px;
-"></i>
+		margin-bottom: 35px;
+	"></i>
 							<h3>Engagement</h3>
 							<!-- <small>Avg price $40</small> -->
 						</a>
@@ -182,8 +178,8 @@
 						<a href="#0">
 							<!-- <span>65</span> -->
 							<i class="fa-solid fa-martini-glass-citrus" style="
-	margin-bottom: 35px;
-"></i>
+		margin-bottom: 35px;
+	"></i>
 							<h3>Date Night</h3>
 							<!-- <small>Avg price $60</small> -->
 						</a>
@@ -192,8 +188,8 @@
 						<a href="#0">
 							<!-- <span>65</span> -->
 							<i class="fa-solid fa-baby" style="
-	margin-bottom: 35px;
-"></i>
+		margin-bottom: 35px;
+	"></i>
 							<h3>Baby Shower</h3>
 							<!-- <small>Avg price $40</small> -->
 						</a>
@@ -212,47 +208,6 @@
 			<!-- /container -->
 		</div>
 		<!-- /bg_gray -->
-		<div class="bg_gray">
-			<div class="container margin_60_40">
-				<div class="main_title center">
-					<span><em></em></span>
-					<h2>How it Works? </h2>
-					<p>Watch It Now
-					</p>
-				</div>
-
-				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<a class="box_topic" href="#0">
-							<span><img style="height: 90px; width: 90px; margin-bottom: 14px;" src="img/icon/search.png"
-									alt=""></span>
-							<h3>Browse Venues</h3>
-							<p>Check out the best suited Venues, compare photos, special offers and function packages.
-							</p>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<a class="box_topic" href="#0">
-							<img style="height: 90px; width: 90px; margin-bottom: 14px;" src="img/icon/rupee.webp"
-								alt="">
-							<h3>Request Quotes</h3>
-							<p>Get custom quotes of your short-listed Venues at the click of GET FREE QUOTES button.
-							</p>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<a class="box_topic" href="#0">
-							<img style="height: 90px; width: 90px; margin-bottom: 14px;" src="img/icon/calender.png"
-								alt="">
-							<h3>Book a Venue</h3>
-							<p>Select and Book the perfect venue in no time at all. Time is money, save both.
-							</p>
-						</a>
-					</div>
-				</div>
-			</div>
-			<!-- /container -->
-		</div>
 		<div class="container margin_60_40">
 			<div class="main_title">
 				<span><em></em></span>
@@ -378,62 +333,211 @@
 				</div>
 			</div>
 
-			<!-- Add Testimonials -->
-			<!-- Testimonials Section -->
-			<div class="main_title">
-				<span><em></em></span>
-				<h2>Client Testimonials</h2>
-				<p>See what our clients have to say about us.</p>
-			</div>
+			<!-- Gallery -->
+			<div class="bg_gray">
+				<div class="container margin_60_40">
+					<div class="main_title center">
+						<span><em></em></span>
+						<h2>Our Gallery</h2>
+					</div>
+					<!-- /main_title -->
+					<div class="owl-carousel owl-theme categories_carousel owl-loaded owl-drag">
+						<div class="owl-stage-outer">
+							<div class="owl-stage"
+								style="transform: translate3d(0px, 0px, 0px); transition: all; width: 2492px">
+								<div class="owl-item active" style="width: 336px; margin-right: 20px;">
+									<div class="item_version_2">
+										<a href="grid-listing-filterscol.html">
+											<figure>
 
-			<div class="owl-carousel owl-theme testimonial_carousel">
-				<div class="item">
-					<div class="testimonial">
-						<figure>
-							<img src="img/avatar1.jpg" alt="Client 1" class="testimonial_img testi-img"
-								style="height: 100px;width: 100px;transform: translateX(120px);">
-						</figure>
-						<div class="testimonial_content">
-							<p>"The hotel was fantastic! The service was top-notch and the location was perfect."</p>
-							<strong>- Client Name</strong>
+												<img src="img/our gallery/1.jpg" data-src="img/our gallery/1.jpg" alt=""
+													class="owl-lazy" style="opacity: 1;">
+												<div class="info">
+													<h3>Taj Mahal Palace </h3>
+
+												</div>
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="owl-item" style="width: 336px; margin-right: 20px;">
+									<div class="item_version_2">
+										<a href="grid-listing-filterscol.html">
+											<figure>
+
+												<img src="img/our gallery/2.jpg" data-src="img/our gallery/2.jpg" alt=""
+													class="owl-lazy">
+												<div class="info">
+													<h3>The Oberoi Udaivilas</h3>
+
+												</div>
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="owl-item" style="width: 336px; margin-right: 20px;">
+									<div class="item_version_2">
+										<a href="grid-listing-filterscol.html">
+											<figure>
+
+												<img src="img/our gallery/3.jpg" data-src="img/our gallery/3.jpg" alt=""
+													class="owl-lazy">
+												<div class="info">
+													<h3>Leela Palace</h3>
+
+												</div>
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="owl-item" style="width: 336px; margin-right: 20px;">
+									<div class="item_version_2">
+										<a href="grid-listing-filterscol.html">
+											<figure>
+
+												<img src="img/our gallery/4.jpg" data-src="img/our gallery/4.jpg" alt=""
+													class="owl-lazy">
+												<div class="info">
+													<h3>Rambagh Palace</h3>
+
+												</div>
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="owl-item" style="width: 336px; margin-right: 20px;">
+									<div class="item_version_2">
+										<a href="grid-listing-filterscol.html">
+											<figure>
+
+												<img src="img/our gallery/5.jpg" data-src="img/our gallery/5.jpg" alt=""
+													class="owl-lazy">
+												<div class="info">
+													<h3>The Imperial</h3>
+
+												</div>
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="owl-item" style="width: 336px; margin-right: 20px;">
+									<div class="item_version_2">
+										<a href="grid-listing-filterscol.html">
+											<figure>
+
+												<img src="img/our gallery/6.jpg" data-src="img/our gallery/6.jpg" alt=""
+													class="owl-lazy">
+												<div class="info">
+													<h3>Taj Lake Palace</h3>
+
+												</div>
+											</figure>
+										</a>
+									</div>
+								</div>
+								<div class="owl-item" style="width: 336px; margin-right: 20px;">
+									<div class="item_version_2">
+										<a href="grid-listing-filterscol.html">
+											<figure>
+
+												<img src="img/our gallery/7.jpg" data-src="img/our gallery/7.jpg" alt=""
+													class="owl-lazy">
+												<div class="info">
+													<h3>ITC Grand Chola</h3>
+
+												</div>
+											</figure>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><i
+									class="arrow_carrot-left"></i></button><button type="button" role="presentation"
+								class="owl-next"><i class="arrow_carrot-right"></i></button></div>
+
+					</div>
+					<!-- /carousel -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- Testimonials Section -->
+			<div class="owl-carousel owl-theme carousel_1 testimonials add_top_30 owl-loaded owl-drag">
+
+
+
+				<div class="owl-stage-outer">
+					<div class="owl-stage"
+						style="transform: translate3d(0px, 0px, 0px); transition: all; width: 1008px;">
+						<div class="owl-item active" style="width: 336px;">
+							<div class="item">
+								<blockquote>"Quaerendum liberavisse no cum, at copiosae pericula maluisset per. Eos eros
+									etiam ei, nibh elit mel ad. Quo mnesarchum disputando ne, id per delectus
+									disputationi".</blockquote>
+								<figure><img src="img/avatar1.jpg" data-src="img/img/avatar1.jpg" alt=""
+										class="lazy loaded" data-was-processed="true"></figure>
+								<cite>
+									<strong>James Powell</strong>
+									<span>3 October 2019</span>
+								</cite>
+							</div>
+						</div>
+						<div class="owl-item" style="width: 336px;">
+							<div class="item">
+								<blockquote>"Quaerendum liberavisse no cum, at copiosae pericula maluisset per. Eos eros
+									etiam ei, nibh elit mel ad. Quo mnesarchum disputando ne, id per delectus
+									disputationi".</blockquote>
+								<figure><img src="img/avatar6.jpg" data-src="img/avatar6.jpg" alt="" class="lazy">
+								</figure>
+								<cite>
+									<strong>Frederick Smith</strong>
+									<span>25 November 2019</span>
+								</cite>
+							</div>
+						</div>
+						<div class="owl-item" style="width: 336px;">
+							<div class="item">
+								<blockquote>"Quaerendum liberavisse no cum, at copiosae pericula maluisset per. Eos eros
+									etiam ei, nibh elit mel ad. Quo mnesarchum disputando ne, id per delectus
+									disputationi".</blockquote>
+								<figure><img src="img/avatar4.jpg" data-src="img/avatar4.jpg" alt="" class="lazy">
+								</figure>
+								<cite>
+									<strong>Jhon Rabbit</strong>
+									<span>31 November 2019</span>
+								</cite>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="item">
-					<div class="testimonial">
-						<figure>
-							<img src="img/avatar1.jpg" alt="Client 2" class="testimonial_img"
-								style="height: 100px;width: 100px;transform: translateX(120px);">
-						</figure>
-						<div class="testimonial_content">
-							<p>"A wonderful experience! I highly recommend this hotel to everyone."</p>
-							<strong>- Client Name</strong>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testimonial">
-						<figure>
-							<img src="img/avatar1.jpg" alt="Client 3" class="testimonial_img"
-								style="height: 100px;width: 100px;transform: translateX(120px);">
-						</figure>
-						<div class="testimonial_content">
-							<p>"Exceptional service and great ambiance. Will definitely visit again."</p>
-							<strong>- Client Name</strong>
-						</div>
-					</div>
-				</div>
+				<div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span
+							aria-label="Previous">‹</span></button><button type="button" role="presentation"
+						class="owl-next"><span aria-label="Next">›</span></button></div>
+
+			</div>
 	</main>
 	<!-- /main -->
 
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_1">Company Logo</h3>
-					<img src="" alt="">
+				<div class="col-lg-4 col-md-6">
+					<img class="logo-png" src="img/logo/logo.png" alt="" style="
+		height: 22px;
+		margin-top: 7px;
+				margin-top: 35px;
+
+	">
+					<div class="follow_us">
+						<h5>Follow Us</h5>
+						<ul>
+							<li><a href="#0"><i class="bi bi-facebook"></i></a></li>
+							<li><a href="#0"><i class="bi bi-instagram"></i></a></li>
+							<li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<h3 data-bs-target="#collapse_2">Pages</h3>
 					<div class="collapse dont-collapse-sm links" id="collapse_2">
 						<ul>
@@ -444,49 +548,27 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<h3 data-bs-target="#collapse_3">Contacts</h3>
 					<div class="collapse dont-collapse-sm contacts" id="collapse_3">
 						<ul>
-							<li><i class="icon_house_alt"></i>97845 Baker st. 567<br>Los Angeles - US</li>
-							<li><i class="icon_mobile"></i>+94 423-23-221</li>
+							<li><i class="icon_house_alt"></i>2nd floor above Krishna Vijay misal Shahid Circle,
+								Gangapur road, Nashik</li>
+							<li><i class="icon_mobile"></i>+91 7350400223</li>
 							<li><i class="icon_mail_alt"></i><a href="#0">info@domain.com</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_4">Keep in touch</h3>
-					<div class="collapse dont-collapse-sm" id="collapse_4">
-						<div id="newsletter">
-							<div id="message-newsletter"></div>
-							<form method="post" action="https://www.ansonika.com/foogra/assets/newsletter.php"
-								name="newsletter_form" id="newsletter_form">
-								<div class="form-group">
-									<input type="email" name="email_newsletter" id="email_newsletter"
-										class="form-control" placeholder="Your email">
-									<button type="submit" id="submit-newsletter"><i
-											class="arrow_carrot-right"></i></button>
-								</div>
-							</form>
-						</div>
-						<div class="follow_us">
-							<h5>Follow Us</h5>
-							<ul>
-								<li><a href="#0"><i class="bi bi-facebook"></i></a></li>
-								<li><a href="#0"><i class="bi bi-twitter-x"></i></a></li>
-								<li><a href="#0"><i class="bi bi-instagram"></i></a></li>
-								<li><a href="#0"><i class="bi bi-tiktok"></i></a></li>
-								<li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
+
 			</div>
 			<!-- /row-->
 			<hr>
 			<div class="footer">
 				<div class="copyright">
-					<p class="text-white">Design By Think Digital</p>
+					<p class="text-white">All Rights Copyright Reserved - 2024 Design By<span><a target="_blank" style="
+	color: #056AA1;
+	font-weight: bold;
+" href="https://thinkdigitalindia.in/"> Think Digital</a> </span> </p>
 				</div>
 			</div>
 	</footer>

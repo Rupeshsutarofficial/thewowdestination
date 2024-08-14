@@ -4052,18 +4052,17 @@ ul#top_menu li a.login:before {
 .loc_open,
 .loc_closed {
   position: relative;
-  top: -2px;
+  top: -6px;
   font-size: 12px;
-  font-size: 0.75rem;
+  font-size: 13px;
   font-weight: 500;
-  padding: 2px 8px;
+  padding: 5px 15px;
   line-height: 1;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   border-radius: 3px;
 }
-
 .loc_open {
   color: #32a067;
   border: 1px solid #32a067;
@@ -6037,7 +6036,7 @@ a.box_topic {
   border: none;
   padding: 5px 12px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 13px;
   border-radius: 5px;
   text-align: center;
   display: inline-block;

@@ -81,22 +81,28 @@
 </head>
 
 <body>
-	<header class="header_in clearfix">
+	<header class="header clearfix element_to_stick">
 		<div class="container">
 			<div id="logo">
-				<h3>The Wow Destination</h3>
+				<a href="index.php">
+					<img class="logo-png" src="img/logo/logo.png" alt="" style="
+		height: 22px;
+		margin-top: 7px;
+	">
+				</a>
 			</div>
-
 			<!-- /top_menu -->
 			<a href="#0" class="open_close">
-				<i class="icon_menu"></i><span>Menu</span>
+				<i class="icon_menu" style="
+		color: black;
+	"></i><span>Menu</span>
 			</a>
 			<nav class="main-menu">
 				<div id="header_menu">
 					<a href="#0" class="open_close">
 						<i class="icon_close"></i><span>Menu</span>
 					</a>
-					<a href="index.html"><img src="img/logo.svg" width="140" height="35" alt="" /></a>
+					<a href="index.html"><img src="img/logo/White the wow.png" height="25" alt=""></a>
 				</div>
 				<ul>
 					<li class="submenu">
@@ -111,7 +117,6 @@
 					<li class="submenu">
 						<a href="#0" class="show-submenu">Login</a>
 					</li>
-
 				</ul>
 			</nav>
 		</div>
@@ -119,7 +124,9 @@
 	<!-- /header -->
 
 	<main>
-		<div class="page_header element_to_stick">
+		<div class="page_header element_to_stick" style="
+	padding: 0px 0 20px 0;
+">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-8 col-lg-7 col-md-7 d-none d-md-block">
@@ -161,28 +168,28 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="filter_type">
-							<h6>Categories</h6>
+							<h6>Rooms</h6>
 							<ul>
 								<li>
-									<label class="container_check">Pizza - Italian <small>12</small>
+									<label class="container_check">Single<small>12</small>
 										<input type="checkbox" />
 										<span class="checkmark"></span>
 									</label>
 								</li>
 								<li>
-									<label class="container_check">Japanese - Sushi <small>24</small>
+									<label class="container_check">double <small>24</small>
 										<input type="checkbox" />
 										<span class="checkmark"></span>
 									</label>
 								</li>
 								<li>
-									<label class="container_check">Burghers <small>23</small>
+									<label class="container_check">Tripel <small>23</small>
 										<input type="checkbox" />
 										<span class="checkmark"></span>
 									</label>
 								</li>
 								<li>
-									<label class="container_check">Vegetarian <small>11</small>
+									<label class="container_check">Quad <small>11</small>
 										<input type="checkbox" />
 										<span class="checkmark"></span>
 									</label>
@@ -192,7 +199,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="filter_type">
-							<h6>Rating</h6>
+							<h6>Capacity</h6>
 							<ul>
 								<li>
 									<label class="container_check">Superb 9+ <small>06</small>
@@ -523,132 +530,56 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_1">Quick Links</h3>
-					<div class="collapse dont-collapse-sm links" id="collapse_1">
+				<div class="col-lg-4 col-md-6">
+					<img class="logo-png" src="img/logo/logo.png" alt="" style="
+		height: 22px;
+		margin-top: 7px;
+				margin-top: 35px;
+
+	">
+					<div class="follow_us">
+						<h5>Follow Us</h5>
 						<ul>
-							<li><a href="submit-rider.html">Become a Rider</a></li>
-							<li>
-								<a href="submit-restaurant.html">Add your restaurant</a>
-							</li>
-							<li><a href="help.html">Help</a></li>
-							<li><a href="account.html">My account</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contacts.html">Contacts</a></li>
+							<li><a href="#0"><i class="bi bi-facebook"></i></a></li>
+							<li><a href="#0"><i class="bi bi-instagram"></i></a></li>
+							<li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_2">Categories</h3>
+				<div class="col-lg-4 col-md-6">
+					<h3 data-bs-target="#collapse_2">Pages</h3>
 					<div class="collapse dont-collapse-sm links" id="collapse_2">
 						<ul>
-							<li>
-								<a href="grid-listing-filterscol.html">Top Categories</a>
-							</li>
-							<li>
-								<a href="grid-listing-filterscol-full-masonry.html">Best Rated</a>
-							</li>
-							<li>
-								<a href="grid-listing-filterscol-full-width.html">Best Price</a>
-							</li>
-							<li>
-								<a href="grid-listing-filterscol-full-masonry.html">Latest Submissions</a>
-							</li>
+							<li><a href="grid-listing-filterscol.html">Policy</a></li>
+							<li><a href="grid-listing-filterscol-full-masonry.html">Terms and Condition</a></li>
+							<li><a href="grid-listing-filterscol-full-width.html">Privacy policy</a></li>
+							<li><a href="grid-listing-filterscol-full-masonry.html">Cantact us</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<h3 data-bs-target="#collapse_3">Contacts</h3>
 					<div class="collapse dont-collapse-sm contacts" id="collapse_3">
 						<ul>
-							<li>
-								<i class="icon_house_alt"></i>97845 Baker st. 567<br />Los
-								Angeles - US
-							</li>
-							<li><i class="icon_mobile"></i>+94 423-23-221</li>
-							<li>
-								<i class="icon_mail_alt"></i><a href="#0">info@domain.com</a>
-							</li>
+							<li><i class="icon_house_alt"></i>2nd floor above Krishna Vijay misal Shahid Circle,
+								Gangapur road, Nashik</li>
+							<li><i class="icon_mobile"></i>+91 7350400223</li>
+							<li><i class="icon_mail_alt"></i><a href="#0">info@domain.com</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_4">Keep in touch</h3>
-					<div class="collapse dont-collapse-sm" id="collapse_4">
-						<div id="newsletter">
-							<div id="message-newsletter"></div>
-							<form method="post" action="https://www.ansonika.com/foogra/assets/newsletter.php"
-								name="newsletter_form" id="newsletter_form">
-								<div class="form-group">
-									<input type="email" name="email_newsletter" id="email_newsletter"
-										class="form-control" placeholder="Your email" />
-									<button type="submit" id="submit-newsletter">
-										<i class="arrow_carrot-right"></i>
-									</button>
-								</div>
-							</form>
-						</div>
-						<div class="follow_us">
-							<h5>Follow Us</h5>
-							<ul>
-								<li>
-									<a href="#0"><i class="bi bi-facebook"></i></a>
-								</li>
-								<li>
-									<a href="#0"><i class="bi bi-twitter-x"></i></a>
-								</li>
-								<li>
-									<a href="#0"><i class="bi bi-instagram"></i></a>
-								</li>
-								<li>
-									<a href="#0"><i class="bi bi-tiktok"></i></a>
-								</li>
-								<li>
-									<a href="#0"><i class="bi bi-whatsapp"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
+
 			</div>
 			<!-- /row-->
-			<hr />
-			<div class="row add_bottom_25">
-				<div class="col-lg-6">
-					<ul class="footer-selector clearfix">
-						<li>
-							<div class="styled-select lang-selector">
-								<select>
-									<option value="English" selected>English</option>
-									<option value="French">French</option>
-									<option value="Spanish">Spanish</option>
-									<option value="Russian">Russian</option>
-								</select>
-							</div>
-						</li>
-						<li>
-							<div class="styled-select currency-selector">
-								<select>
-									<option value="US Dollars" selected>US Dollars</option>
-									<option value="Euro">Euro</option>
-								</select>
-							</div>
-						</li>
-						<li>
-							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-								data-src="img/cards_all.svg" alt="" width="198" height="30" class="lazy" />
-						</li>
-					</ul>
-				</div>
-				<div class="col-lg-6">
-					<ul class="additional_links">
-						<li><a href="#0">Terms and conditions</a></li>
-						<li><a href="#0">Privacy</a></li>
-						<li><span>© Foogra</span></li>
-					</ul>
+			<hr>
+			<div class="footer">
+				<div class="copyright">
+					<p class="text-white">All Rights Copyright Reserved - 2024 Design By<span><a target="_blank" style="
+	color: #056AA1;
+	font-weight: bold;
+" href="https://thinkdigitalindia.in/"> Think Digital</a> </span> </p>
 				</div>
 			</div>
-		</div>
 	</footer>
 	<!--/footer-->
 
