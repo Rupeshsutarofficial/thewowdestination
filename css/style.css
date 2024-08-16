@@ -6046,3 +6046,42 @@ a.box_topic {
 .add_to_cart:hover {
   background-color: #218838; /* Darker green on hover */
 }
+
+#typewriter {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden; /* Ensures the text will be hidden until typed out */
+  border-right: 0.15em solid white; /* Gives the blinking cursor effect */
+  white-space: nowrap; /* Keeps the text on a single line */
+  margin: 0 auto; /* Centers the text */
+  letter-spacing: 0.1em; /* Adds a bit of spacing between letters */
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.follower {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f39c12;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
