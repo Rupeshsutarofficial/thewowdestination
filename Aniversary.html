@@ -124,7 +124,7 @@
 	<!-- /header -->
 
 	<main>
-		<div class="hero_single inner_pages background-image" data-background="url(img/banner/Anniversary.jpg)" style="background-image: url(&quot;img/hero_submit.jpg&quot;);">
+		<div class="hero_single inner_pages background-image" data-background="url(img/banner/Anniversary.webp)" style="background-image: url(&quot;img/hero_submit.jpg&quot;);">
 			<div class="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)" style="background-color: rgb(0 0 0 / 27%);">
 				<div class="container">
 					<div class="row justify-content-center">
@@ -141,14 +141,18 @@
 		<div class="filters_full clearfix add_bottom_15">
 			<div class="container">
 				<div class="switch-field">
-					<input type="radio" id="all" name="listing_filter" value="hall" checked data-filter=".hall"
-						class="selected" />
-					<label for="all">Hall</label>
-					<input type="radio" id="popular" name="listing_filter" value="lawn" data-filter=".lawn" />
-					<label for="popular">Lawn</label>
-					<input type="radio" id="latest" name="listing_filter" value="cafe" data-filter=".cafe" />
-					<label for="latest">Cafe</label>
-				</div>
+    <input type="radio" id="all" name="listing_filter" value="*" checked data-filter="*" class="selected" />
+    <label for="all">All</label>
+
+    <input type="radio" id="hall" name="listing_filter" value="hall" data-filter=".hall" />
+    <label for="hall">Hall</label>
+
+    <input type="radio" id="popular" name="listing_filter" value="lawn" data-filter=".lawn" />
+    <label for="popular">Lawn</label>
+
+    <input type="radio" id="latest" name="listing_filter" value="cafe" data-filter=".cafe" />
+    <label for="latest">Cafe</label>
+</div>
 
 				<a href="#collapseFilters" data-bs-toggle="collapse" class="btn_filters"><i
 						class="icon_adjust-vert"></i><span>Filters</span></a>

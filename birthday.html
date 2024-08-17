@@ -106,13 +106,16 @@
 				</div>
 				<ul>
 					<li class="submenu">
-						<a href="#0" class="show-submenu">Home</a>
+						<a href="index.html" class="show-submenu">Home</a>
 					</li>
 					<li class="submenu">
-						<a href="#0" class="show-submenu">Gallery</a>
+						<a href="Gallery.html" class="show-submenu">Gallery</a>
 					</li>
 					<li class="submenu">
-						<a href="#0" class="show-submenu">Cart</a>
+						<a href="Gallery.html" class="show-submenu">About us</a>
+					</li>
+					<li class="submenu">
+						<a href="Gallery.html" class="show-submenu">Contact</a>
 					</li>
 					<li class="submenu">
 						<a href="#0" class="show-submenu">Login</a>
@@ -124,7 +127,7 @@
 	<!-- /header -->
 
 	<main>
-		<div class="hero_single inner_pages background-image" data-background="url(img/banner/birthday.jpg)" style="background-image: url(&quot;img/hero_submit.jpg&quot;);">
+		<div class="hero_single inner_pages background-image" data-background="url(img/banner/birthday.jpeg)" style="background-image: url(&quot;img/hero_submit.jpg&quot;);">
 			<div class="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)" style="background-color: rgb(0 0 0 / 27%);">
 				<div class="container">
 					<div class="row justify-content-center">
@@ -143,14 +146,19 @@
 		<div class="filters_full clearfix add_bottom_15">
 			<div class="container">
 				<div class="switch-field">
-					<input type="radio" id="all" name="listing_filter" value="hall" checked data-filter=".hall"
-						class="selected" />
-					<label for="all">Hall</label>
-					<input type="radio" id="popular" name="listing_filter" value="lawn" data-filter=".lawn" />
-					<label for="popular">Lawn</label>
-					<input type="radio" id="latest" name="listing_filter" value="cafe" data-filter=".cafe" />
-					<label for="latest">Cafe</label>
-				</div>
+    <input type="radio" id="all" name="listing_filter" value="*" checked data-filter="*" class="selected" />
+    <label for="all">All</label>
+
+    <input type="radio" id="hall" name="listing_filter" value="hall" data-filter=".hall" />
+    <label for="hall">Hall</label>
+
+    <input type="radio" id="popular" name="listing_filter" value="lawn" data-filter=".lawn" />
+    <label for="popular">Lawn</label>
+
+    <input type="radio" id="latest" name="listing_filter" value="cafe" data-filter=".cafe" />
+    <label for="latest">Cafe</label>
+</div>
+
 
 				<a href="#collapseFilters" data-bs-toggle="collapse" class="btn_filters"><i
 						class="icon_adjust-vert"></i><span>Filters</span></a>
@@ -161,6 +169,37 @@
 		<div class="collapse filters_2" id="collapseFilters">
 			<div class="container margin_detail">
 				<div class="row">
+					<div class="col-md-4">
+						<div class="filter_type">
+							<h6>Location</h6>
+							<ul>
+								<li>
+									<label class="container_check">Nashik<small>12</small>
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+								</li>
+								<li>
+									<label class="container_check">Pune <small>24</small>
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+								</li>
+								<li>
+									<label class="container_check">Mumbai <small>23</small>
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+								</li>
+								<li>
+									<label class="container_check">Delhi<small>11</small>
+										<input type="checkbox" />
+										<span class="checkmark"></span>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</div>
 					<div class="col-md-4">
 						<div class="filter_type">
 							<h6>Rooms</h6>
@@ -237,7 +276,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item hall">
 							<div class="strip">
     <figure>
-        <span class="ribbon off">⭐4.8</span>
+        <span class="ribbon off">80-200 Guests</span>
         <img src="img/lazy-placeholder.png" data-src="img/Hall/1.jpg" class="img-fluid lazy" alt="" />
         <a href="detail-restaurant.html" class="strip_info">
             <small>Hall</small>
@@ -251,16 +290,16 @@
         <li><span class="loc_open">₹ 870</span></li>
         <li>
             <button class="add_to_cart">Request a Quote</button>
-        </li>
-    </ul>
-</div>
+           </li>
+             </ul>
+               </div>
 
 						</div>
 						<!-- /strip grid -->
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item hall">
 							<div class="strip">
 								<figure>
-									<span class="ribbon off">⭐4.8</span>
+									<span class="ribbon off">80-200 Guests</span>
 									<img src="img/lazy-placeholder.png" data-src="img/Hall/2.jpeg"
 										class="img-fluid lazy" alt="" />
 									<a href="detail-restaurant.html" class="strip_info">
@@ -283,6 +322,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item hall">
 							<div class="strip">
 								<figure>
+									<span class="ribbon off">80-200 Guests</span>
 									<img src="img/lazy-placeholder.png" data-src="img/Hall/3.jpg" class="img-fluid lazy"
 										alt="" />
 									<a href="detail-restaurant.html" class="strip_info">
@@ -305,7 +345,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item lawn">
 							<div class="strip">
 								<figure>
-									<span class="ribbon off">-25%</span>
+									<span class="ribbon off">80-200 Guests</span>
 									<img src="img/lazy-placeholder.png" data-src="img/Hall/4.jpg" class="img-fluid lazy"
 										alt="" />
 									<a href="detail-restaurant.html" class="strip_info">
@@ -328,7 +368,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item cafe">
 							<div class="strip">
 								<figure>
-									<span class="ribbon off">-30%</span>
+									<span class="ribbon off">80-200 Guests</span>
 									<img src="img/lazy-placeholder.png" data-src="img/Hall/5.jpg" class="img-fluid lazy"
 										alt="" />
 									<a href="detail-restaurant.html" class="strip_info">
@@ -351,6 +391,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item cafe">
 							<div class="strip">
 								<figure>
+									<span class="ribbon off">80-200 Guests</span>
 									<img src="img/lazy-placeholder.png" data-src="img/Hall/6.jpg" class="img-fluid lazy"
 										alt="" />
 									<a href="detail-restaurant.html" class="strip_info">
@@ -373,7 +414,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item lawn">
 							<div class="strip">
 								<figure>
-									<span class="ribbon off">-30%</span>
+									<span class="ribbon off">80-200 Guests</span>
 									<img src="img/lazy-placeholder.png" data-src="img/Hall/7.jpg" class="img-fluid lazy"
 										alt="" />
 									<a href="detail-restaurant.html" class="strip_info">
@@ -395,7 +436,7 @@
 						<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 isotope-item cafe">
 							<div class="strip">
 								<figure>
-									<span class="ribbon off">-30%</span>
+									<span class="ribbon off">80-200 Guests</span>
 									<img src="img/lazy-placeholder.png" data-src="img/Hall/7.jpg" class="img-fluid lazy"
 										alt="" />
 									<a href="detail-restaurant.html" class="strip_info">
@@ -548,7 +589,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
-					<img class="logo-png" src="img/logo/logo.png" alt="" style="
+					<img class="logo-png" src="img/logo/White the wow.png" alt="" style="
 		height: 22px;
 		margin-top: 7px;
 				margin-top: 35px;
@@ -640,7 +681,7 @@
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.from(".strip", {
-        y: 50,                 // Start 50px below its final position
+        y: 50,                 
         opacity: 0,            // Start with zero opacity
         duration: 1,           // Animation duration
         ease: "power4.out",    // Easing for smooth animation

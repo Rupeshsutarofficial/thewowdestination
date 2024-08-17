@@ -2089,7 +2089,7 @@ hr {
 
 /*General links color*/
 a {
-  color: #589442;
+  color: #1e84fe;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -2282,7 +2282,7 @@ header.header_in .main-menu > ul > li > a,
 header.sticky .main-menu > ul > li:hover > a,
 header.header_in .main-menu > ul > li:hover > a {
   opacity: 1;
-  color: #589442;
+  color: #1e84fe;
 }
 
 #close_in,
@@ -2314,7 +2314,7 @@ header.header_in .main-menu > ul > li:hover > a {
   /* Submenu*/
   .main-menu ul ul {
     position: absolute;
-    border-top: 2px solid #589442;
+    border-top: 2px solid #1e84fe;
     z-index: 1;
     visibility: hidden;
     left: 3px;
@@ -2351,7 +2351,7 @@ header.header_in .main-menu > ul > li:hover > a {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #589442;
+    border-bottom-color: #1e84fe;
     border-width: 7px;
     margin-left: -7px;
   }
@@ -2410,7 +2410,7 @@ header.header_in .main-menu > ul > li:hover > a {
 
   .main-menu ul ul li:hover > a {
     background-color: #f9f9f9;
-    color: #589442;
+    color: #1e84fe;
     padding-left: 18px;
   }
 
@@ -2420,7 +2420,7 @@ header.header_in .main-menu > ul > li:hover > a {
   }
   .main-menu ul ul li.third-level > a:hover {
     background-color: #f9f9f9;
-    color: #589442;
+    color: #1e84fe;
     padding-left: 18px;
     opacity: 1;
   }
@@ -2461,7 +2461,7 @@ header.header_in .main-menu > ul > li:hover > a {
     text-align: center;
     position: relative;
     padding: 30px 0 25px 0;
-    background-color: #589442;
+    background-color: #1e84fe;
   }
   #header_menu a.open_close {
     position: absolute;
@@ -2473,7 +2473,7 @@ header.header_in .main-menu > ul > li:hover > a {
 
   .main-menu ul li a:hover,
   a.show-submenu:hover {
-    color: #589442 !important;
+    color: #1e84fe !important;
     background-color: #f9f9f9;
     opacity: 1 !important;
   }
@@ -2509,7 +2509,7 @@ header.header_in .main-menu > ul > li:hover > a {
 
   /* .main-menu > ul > li.submenu:hover > a:after {
     transform: rotate(180deg);
-    color: #589442;
+    color: #1E84FE;
   }
 
   .main-menu ul > li.submenu > a:after {
@@ -2854,7 +2854,7 @@ ul#top_menu li a.login:before {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   border-radius: 3px;
-  background-color: #589442;
+  background-color: #1e84fe;
   margin-right: -1px;
 }
 @media (max-width: 991px) {
@@ -2927,7 +2927,7 @@ ul#top_menu li a.login:before {
   margin-right: 8px;
 }
 .hero_in.detail_page .wrapper .buttons a.btn_hero:hover {
-  color: #589442 !important;
+  color: #1e84fe !important;
 }
 .hero_in.detail_page .wrapper .buttons a.btn_hero.liked {
   color: #ff5a5f !important;
@@ -3039,7 +3039,7 @@ ul#top_menu li a.login:before {
   border-radius: 3px;
 }
 .detail_page_head .title ul.tags li a:hover {
-  color: #589442;
+  color: #1e84fe;
 }
 .detail_page_head .rating {
   float: right;
@@ -3103,7 +3103,7 @@ ul#top_menu li a.login:before {
 }
 @media (max-width: 767px) {
   .page_header.sticky {
-    background-color: #589442;
+    background-color: #1e84fe;
     width: 100%;
     position: fixed;
     left: 0;
@@ -3149,7 +3149,7 @@ ul#top_menu li a.login:before {
   color: #777;
 }
 .breadcrumbs ul li a:hover {
-  color: #589442;
+  color: #1e84fe;
 }
 .breadcrumbs ul li:after {
   font-family: "ElegantIcons";
@@ -3201,7 +3201,7 @@ ul#top_menu li a.login:before {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #589442;
+  background-color: #1e84fe;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -3361,7 +3361,7 @@ ul#top_menu li a.login:before {
 }
 .sticky .dropdown.user > a:hover,
 .header_in .dropdown.user > a:hover {
-  color: #589442 !important;
+  color: #1e84fe !important;
 }
 
 @media (max-width: 991px) {
@@ -3408,7 +3408,7 @@ ul#top_menu li a.login:before {
 .main_title span em {
   width: 60px;
   height: 2px;
-  background-color: #589442;
+  background-color: #1e84fe;
   display: block;
 }
 @media (max-width: 767px) {
@@ -3694,7 +3694,7 @@ ul#top_menu li a.login:before {
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: transparent !important;
-  border: 2px solid #589442;
+  border: 2px solid #1e84fe;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -3716,7 +3716,7 @@ ul#top_menu li a.login:before {
 }
 .owl-theme .owl-dots .owl-dot span::before {
   content: "";
-  background-color: #589442 !important;
+  background-color: #1e84fe !important;
   display: block;
   border-radius: 50%;
   width: 8px;
@@ -4064,8 +4064,8 @@ ul#top_menu li a.login:before {
   border-radius: 3px;
 }
 .loc_open {
-  color: #32a067;
-  border: 1px solid #32a067;
+  color: #1E84FE;
+  border: 1px solid #1E84FE;
 }
 
 .loc_closed {
@@ -4199,7 +4199,7 @@ ul#top_menu li a.login:before {
 a.btn_1,
 .btn_1 {
   border: none;
-  background: #589442;
+  background: #1e84fe;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -4257,8 +4257,8 @@ a.btn_1.outline,
 }
 a.btn_1.outline:hover,
 .btn_1.outline:hover {
-  border-color: #589442;
-  color: #589442 !important;
+  border-color: #1e84fe;
+  color: #1e84fe !important;
 }
 a.btn_1.outline:focus,
 .btn_1.outline:focus {
@@ -4342,7 +4342,7 @@ a.btn_1.gray:hover,
   cursor: pointer;
 }
 .container_check input:checked ~ .checkmark {
-  background-color: #589442;
+  background-color: #1e84fe;
   border: 1px solid transparent;
 }
 .container_check .checkmark {
@@ -4426,7 +4426,7 @@ a.btn_1.gray:hover,
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #589442;
+  background: #1e84fe;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -4501,8 +4501,8 @@ a.btn_1.gray:hover,
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  border-bottom: 2px solid #589442;
-  color: #589442;
+  border-bottom: 2px solid #1e84fe;
+  color: #1e84fe;
   background-color: transparent;
 }
 
@@ -4704,7 +4704,7 @@ footer .links ul li a:after {
   -moz-border-radius: 0 3px 3px 0;
   -ms-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
-  background-color: #589442;
+  background-color: #1e84fe;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -5639,7 +5639,7 @@ a.social_bt.google {
   transform: translateY(-50%);
 }
 #toTop:hover {
-  background-color: #589442;
+  background-color: #1e84fe;
 }
 
 /* Show hide password */
@@ -5746,7 +5746,7 @@ a.social_bt.google {
   background: #bb0000;
 }
 #cookie-bar .cb-policy {
-  background: #589442;
+  background: #1e84fe;
 }
 #cookie-bar .cb-policy:hover {
   background: #fff;
@@ -5803,7 +5803,7 @@ a.social_bt.google {
   font-size: 1.125rem;
   font-weight: normal;
   float: right;
-  color: #589442;
+  color: #1e84fe;
 }
 
 .card {
@@ -5892,7 +5892,7 @@ a.social_bt.google {
 }
 
 .default {
-  background: #589442;
+  background: #1e84fe;
 }
 
 .aqua {
@@ -5997,7 +5997,7 @@ a.social_bt.google {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  background-color: #4caf50; /* Solid green background */
+  background-color: #1e84fe;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -6005,7 +6005,7 @@ a.social_bt.google {
 }
 
 .btn_add_to_cart:hover {
-  background-color: #45a049; /* Slightly darker green on hover */
+  background-color: #1e84fe;
 }
 
 a.box_topic {
@@ -6031,7 +6031,7 @@ a.box_topic {
 }
 
 .add_to_cart {
-  background-color: #28a745; /* Green background */
+  background-color: #1e84fe; /* Green background */
   color: #fff; /* White text */
   border: none;
   padding: 5px 12px;
@@ -6044,7 +6044,7 @@ a.box_topic {
 }
 
 .add_to_cart:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #72b2ff; /* Darker green on hover */
 }
 
 #typewriter {
@@ -6074,14 +6074,4 @@ a.box_topic {
   50% {
     border-color: white;
   }
-}
-
-.follower {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #f39c12;
-  position: absolute;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
 }

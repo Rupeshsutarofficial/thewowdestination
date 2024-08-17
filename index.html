@@ -44,7 +44,7 @@
 </head>
 
 <body>
-<div class="follower"></div>
+
 	<header class="header clearfix element_to_stick">
 		<div class="container">
 			<div id="logo">
@@ -78,7 +78,10 @@
 						<a href="Gallery.html" class="show-submenu">Gallery</a>
 					</li>
 					<li class="submenu">
-						<a href="#0" class="show-submenu">Cart</a>
+						<a href="Gallery.html" class="show-submenu">About us</a>
+					</li>
+					<li class="submenu">
+						<a href="Gallery.html" class="show-submenu">Contact</a>
 					</li>
 					<li class="submenu">
 						<a href="#0" class="show-submenu">Login</a>
@@ -277,7 +280,7 @@
 							<ul>
 								<li><span class="loc_open">₹ 870</span></li>
 								<li>
-									<button class="add_to_cart">Add to Cart</button>
+									<button class="add_to_cart">Request a Quote</button>
 								</li>
 							</ul>
 						</div>
@@ -300,7 +303,7 @@
 							<ul>
 								<li><span class="loc_open">₹ 870</span></li>
 								<li>
-									<button class="add_to_cart">Add to Cart</button>
+									<button class="add_to_cart">Request a Quote</button>
 								</li>
 							</ul>
 						</div>
@@ -323,7 +326,7 @@
 							<ul>
 								<li><span class="loc_open">₹ 870</span></li>
 								<li>
-									<button class="add_to_cart">Add to Cart</button>
+									<button class="add_to_cart">Request a Quote</button>
 								</li>
 							</ul>
 						</div>
@@ -346,7 +349,7 @@
 							<ul>
 								<li><span class="loc_open">₹ 870</span></li>
 								<li>
-									<button class="add_to_cart">Add to Cart</button>
+									<button class="add_to_cart">Request a Quote</button>
 								</li>
 							</ul>
 						</div>
@@ -369,7 +372,7 @@
 							<ul>
 								<li><span class="loc_open">₹ 870</span></li>
 								<li>
-									<button class="add_to_cart">Add to Cart</button>
+									<button class="add_to_cart">Request a Quote</button>
 								</li>
 							</ul>
 						</div>
@@ -627,84 +630,74 @@
 <script>
 
 
-	document.addEventListener('DOMContentLoaded', function () {
-		flatpickr('#date-input', {
-			enableTime: false,
-			dateFormat: "Y-m-d",
-		});
-	});
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialize flatpickr
+    flatpickr('#date-input', {
+        enableTime: false,
+        dateFormat: "Y-m-d",
+    });
 
-	$('.testimonial_carousel').owlCarousel({
-		loop: true,
-		margin: 30,
-		nav: true,
-		dots: true,
-		autoplay: true,
-		autoplayTimeout: 5000,
-		responsive: {
-			0: {
-				items: 1
-			},
-			600: {
-				items: 2
-			},
-			1000: {
-				items: 3
-			}
-		}
-	});
+    // Initialize Owl Carousel for testimonials
+    $('.testimonial_carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: { items: 1 },
+            600: { items: 2 },
+            1000: { items: 3 }
+        }
+    });
 
-document.addEventListener("DOMContentLoaded", function () {
-    gsap.from(".categories_carousel .item", {
+    // GSAP animations
+    const categoriesItems = document.querySelectorAll(".categories_carousel .item");
+    const carousel4Items = document.querySelectorAll(".carousel_4 .item");
+    const galleryItems = document.querySelectorAll(".our-gallery .owl-item");
+    const categoryImages = document.querySelectorAll('.categories_carousel .item img');
+
+    // Animate categories carousel items
+    gsap.from(categoriesItems, {
         opacity: 0,
         y: 50,
         duration: 1,
         ease: "power3.out",
-        stagger: 0.2, // Delay between each item
+        stagger: 0.2
     });
-});
 
-document.addEventListener("DOMContentLoaded", function () {
-    const items = document.querySelectorAll(".carousel_4 .item");
-    
-    items.forEach((item, index) => {
+    // Animate carousel_4 items
+    carousel4Items.forEach((item, index) => {
         gsap.from(item, {
             opacity: 0,
             scale: 0.8,
-            rotation: 10 * (index % 2 === 0 ? 1 : -1), // Alternating rotation
+            rotation: 10 * (index % 2 === 0 ? 1 : -1),
             y: 50,
             duration: 1.5,
-            delay: index * 0.3, // Staggered delay
+            delay: index * 0.3,
             ease: "back.out(1.7)"
         });
     });
-});
 
-document.addEventListener("DOMContentLoaded", function () {
-    const galleryItems = document.querySelectorAll(".our-gallery .owl-item");
-
+    // Animate gallery items
     gsap.from(galleryItems, {
-        y: 100,               
-        opacity: 0,           
-        duration: 1.5,        
-        ease: "power2.out",   
-        stagger: 0.2,         
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        ease: "power2.out",
+        stagger: 0.2
     });
-});
 
-
-//    magnet effect on popular categories icon
-document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll('.categories_carousel .item img');
-
-    images.forEach((img) => {
+    // Magnet effect on popular categories icons
+    categoryImages.forEach((img) => {
         img.addEventListener('mousemove', (e) => {
             const rect = img.getBoundingClientRect();
             const x = e.clientX - rect.left - rect.width / 2;
             const y = e.clientY - rect.top - rect.height / 2;
 
             gsap.to(img, {
-                x: x * 0.2,  // Adjust the multiplier to control the intensity of the magnet effect
+                x: x * 0.2,
                 y: y * 0.2,
                 ease: "power3.out",
                 duration: 0.3
@@ -722,16 +715,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-	const follower = document.querySelector('.follower');
-        
-        document.addEventListener('mousemove', (e) => {
-            gsap.to(follower, {
-                x: e.clientX,
-                y: e.clientY,
-                ease: "power2.out",
-                duration: 0.3
-            });
-        });
+	
 
 </script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
