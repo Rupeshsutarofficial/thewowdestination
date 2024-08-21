@@ -613,9 +613,9 @@
 	</footer>
 	<!--/footer-->
 
-	<div id="toTop"></div><!-- Back to top button -->
+	<div id="toTop"></div>
 
-	<div class="layer"></div><!-- Opacity Mask Menu Mobile -->
+	<div class="layer"></div>
 
 	
 
@@ -666,15 +666,13 @@ document.addEventListener('DOMContentLoaded', function () {
         ease: "power3.out",
         stagger: 0.2,
         scrollTrigger: {
-            trigger: '.Popular Categories',
-            start: 'top 50%',
-			end: 'bottom 50%',
-            toggleActions: 'play none none reverse',
-			markers:true
+            trigger: ".Popular",
+            start: "top 80%", // Start animation when top of the section hits 80% of the viewport height
+            toggleActions: "play none none none" // Controls the animation playback
         }
     });
 
-    // Animate carousel_4 items
+    // Animate carousel_4 items when section is in view
     carousel4Items.forEach((item, index) => {
         gsap.from(item, {
             opacity: 0,
@@ -683,17 +681,28 @@ document.addEventListener('DOMContentLoaded', function () {
             y: 50,
             duration: 1.5,
             delay: index * 0.3,
-            ease: "back.out(1.7)"
+            ease: "back.out(1.7)",
+            scrollTrigger: {
+                trigger: item,
+                start: "top 90%", // Adjust this value according to when you want the animation to start
+                toggleActions: "play none none none"
+            }
         });
     });
 
-    // Animate gallery items
+    // Animate gallery items when section is in view
     gsap.from(galleryItems, {
         y: 100,
         opacity: 0,
         duration: 1.5,
         ease: "power2.out",
-        stagger: 0.2
+        stagger: 0.2,
+        scrollTrigger: {
+            trigger: ".our-gallery",
+            start: "top 80%",
+            toggleActions: "play none none none",
+			markers:true
+        }
     });
 
     // Magnet effect on popular categories icons
@@ -723,32 +732,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
-gsap.from(".Popular .item", {
-  scrollTrigger: {
-    trigger: ".Popular",
-    start: "top 80%", // when the top of the section reaches 80% of the viewport height
-    end: "bottom 20%", // when the bottom of the section reaches 20% of the viewport height
-    scrub: true,
-  },
-  opacity: 0,
-  y: 50,
-  stagger: 0.2,
-});
-
-gsap.registerPlugin(ScrollTrigger);
-
-gsap.from(".Popular .item", {
-  scrollTrigger: {
-    trigger: ".Popular",
-    start: "top 80%", // when the top of the section reaches 80% of the viewport height
-    end: "bottom 20%", // when the bottom of the section reaches 20% of the viewport height
-    scrub: true,
-  },
-  opacity: 0,
-  y: 50,
-  stagger: 0.2,
-});
 
 
 
